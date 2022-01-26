@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <li class="navbar-item hamburgur" id="navbar-icon">☰</li>
+            <li class="navbar-item home" id="active">Home</li>
+            <li class="navbar-item news">News</li>
+            <li class="navbar-item contact">Contact</li>
+            <li class="navbar-item about">About</li>
+            
+        </nav>
+        <div class="header">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis, ipsum illo praesentium harum facilis
+            dignissimos ullam explicabo voluptates ex, laudantium ut! Ipsa iusto cupiditate obcaecati tenetur temporibus
+            laboriosam quisquam. Dolorem?
+            Dolores animi doloribus porro sunt illum aperiam, exercitationem rerum eligendi incidunt inventore! Quo hic
+            quos dolorem reprehenderit debitis eveniet vitae perspiciatis, soluta rem nesciunt, repellendus beatae
+            labore, error officiis consequatur.
+            Fuga mollitia sint minus cumque impedit vel labore asperiores rem esse dignissimos, doloremque assumenda
+            dolorem quisquam expedita commodi consequatur harum quia deleniti repellat nesciunt blanditiis ullam veniam.
+            Nam, magnam cum.
+            Rerum nisi quod cumque pariatur voluptates, praesentium, nemo libero veritatis recusandae qui provident enim
+            voluptatem unde incidunt placeat natus sed id doloribus eum ab maxime consectetur at ipsum consequuntur!
+            Mollitia?
+            Modi excepturi possimus accusantium architecto sit. Et repellat ut, odio, aperiam animi quasi alias hic
+            laudantium, porro optio repudiandae vel doloribus quo adipisci eligendi quisquam cum atque quia nostrum
+            ratione!
+            Dignissimos pariatur optio voluptatem magnam, quam recusandae fuga eaque quo similique facere repellendus
+            odio enim aliquid. Fugit modi velit impedit! Minus dolore beatae repellendus incidunt accusamus ipsum
+            eveniet, maiores autem.
+        </div>
+    </div>
+    <script>
+        document.querySelector('#navbar-icon').addEventListener('click', (event) => {
+            let nav = document.querySelector('nav');
+            if (nav.classList.contains('responsive')) {
+                nav.className = 'navbar';
+            } else {
+                nav.classList.add('responsive');
+            }
+        });
+    </script>
+</body>
+
+</html>
